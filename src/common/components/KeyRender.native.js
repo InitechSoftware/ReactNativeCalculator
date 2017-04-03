@@ -69,7 +69,11 @@ var getOperatorStyles = function(classOperation) {
     divide: {
       backgroundColor: '#cb7dc9',
       paddingBottom: 3
-    }
+    },
+    // power: {
+    //   backgroundColor: '#cb7dc9',
+    //   paddingBottom: 3
+    // }
   };
   return Object.assign(buttonOperator.basic, buttonOperator[classOperation]);
 };

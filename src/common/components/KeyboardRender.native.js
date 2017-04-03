@@ -34,6 +34,7 @@ export default function () {
 
       <View style={styles.row}>
         <Key keyType='operator' keyValue='divide' keySymbol='÷' />
+        {/*<Key keyType='operator' keyValue='power' keySymbol='^' />*/}
         <Key keyType='operator' keyValue='substract' keySymbol='-' />
         <Key keyType='operator' keyValue='add' keySymbol='+' />
         <Key keyType='operator' keyValue='multiply' keySymbol='x' />

@@ -228,6 +228,14 @@ function processCalculation() {
         }
         _symbolKeyTyped = '÷';
         break;
+      // case 'power':
+      //   if(_numbersFromBuffer[1] === 0) {
+      //     calculation = 1;
+      //   } else {
+      //     calculation = Math.pow(_numbersFromBuffer[0], _numbersFromBuffer[1]);
+      //   }
+      //   _symbolKeyTyped = '^';
+      //   break;
       default:
     }
     _lastCalculation = {

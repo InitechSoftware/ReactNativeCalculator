@@ -41,7 +41,10 @@ var getFormulaStyles = function(operator) {
     },
     divide: {
       backgroundColor: '#cb7dc9'
-    }
+    },
+    // power: {
+    //   backgroundColor: '#cb7dc9'
+    // }
   };
 
   return Object.assign(button.basic, button[operator]);
